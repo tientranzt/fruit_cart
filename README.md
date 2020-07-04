@@ -2,7 +2,7 @@
 
 # Feature
 * Cart feature and beautiful UI
-* Count amount number when add fruit to cart
+* Count amount when add fruit to cart
 
 # Gallery
 
