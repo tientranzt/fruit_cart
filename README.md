@@ -7,6 +7,6 @@
 # Gallery
 
 <p float="left">
-<img src="/home.png" width="300" height="500">
-<img src="/cart.png" width="300" height="500">
+<img src="/home.png" width="400" height="700">
+<img src="/cart.png" width="400" height="700">
 </p>
