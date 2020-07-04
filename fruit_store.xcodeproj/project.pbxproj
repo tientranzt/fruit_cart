@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1A951724A646AD00AA4121 /* BottomBar-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF1A951624A646AD00AA4121 /* BottomBar-SwiftUI */; };
 		FF257DA224A5C5A8003A1843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF257DA124A5C5A8003A1843 /* AppDelegate.swift */; };
 		FF257DA424A5C5A8003A1843 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF257DA324A5C5A8003A1843 /* SceneDelegate.swift */; };
-		FF257DA624A5C5A8003A1843 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF257DA524A5C5A8003A1843 /* ContentView.swift */; };
+		FF257DA624A5C5A8003A1843 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF257DA524A5C5A8003A1843 /* HomeView.swift */; };
 		FF257DA824A5C5A9003A1843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF257DA724A5C5A9003A1843 /* Assets.xcassets */; };
 		FF257DAB24A5C5A9003A1843 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF257DAA24A5C5A9003A1843 /* Preview Assets.xcassets */; };
 		FF257DAE24A5C5A9003A1843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF257DAC24A5C5A9003A1843 /* LaunchScreen.storyboard */; };
+		FF2C0FA024ACBF1D00E27F9A /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2C0F9F24ACBF1D00E27F9A /* CartViewModel.swift */; };
+		FF9BD28C24AA142300E3D6F3 /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = FF9BD28B24AA142300E3D6F3 /* QGrid */; };
+		FF9BD29124AA152500E3D6F3 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BD29024AA152500E3D6F3 /* Fruit.swift */; };
+		FF9BD29324AA16D000E3D6F3 /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BD29224AA16D000E3D6F3 /* BottomTabBar.swift */; };
+		FF9BD29524AA199000E3D6F3 /* BottomTabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BD29424AA199000E3D6F3 /* BottomTabBarViewModel.swift */; };
+		FF9BD29724AA233E00E3D6F3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9BD29624AA233E00E3D6F3 /* HomeViewModel.swift */; };
+		FFA8AE0E24AB8B770044D688 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA8AE0D24AB8B770044D688 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF257D9E24A5C5A8003A1843 /* fruit_store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fruit_store.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF257DA124A5C5A8003A1843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF257DA324A5C5A8003A1843 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF257DA524A5C5A8003A1843 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF257DA524A5C5A8003A1843 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FF257DA724A5C5A9003A1843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF257DAA24A5C5A9003A1843 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF257DAD24A5C5A9003A1843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF257DAF24A5C5A9003A1843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2C0F9F24ACBF1D00E27F9A /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		FF9BD29024AA152500E3D6F3 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		FF9BD29224AA16D000E3D6F3 /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
+		FF9BD29424AA199000E3D6F3 /* BottomTabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBarViewModel.swift; sourceTree = "<group>"; };
+		FF9BD29624AA233E00E3D6F3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FFA8AE0D24AB8B770044D688 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9BD28C24AA142300E3D6F3 /* QGrid in Frameworks */,
+				FF1A951724A646AD00AA4121 /* BottomBar-SwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +72,11 @@
 		FF257DA024A5C5A8003A1843 /* fruit_store */ = {
 			isa = PBXGroup;
 			children = (
+				FF9BD28D24AA144F00E3D6F3 /* Models */,
+				FF9BD28F24AA146000E3D6F3 /* ViewModels */,
+				FF9BD28E24AA145900E3D6F3 /* Views */,
 				FF257DA124A5C5A8003A1843 /* AppDelegate.swift */,
 				FF257DA324A5C5A8003A1843 /* SceneDelegate.swift */,
-				FF257DA524A5C5A8003A1843 /* ContentView.swift */,
 				FF257DA724A5C5A9003A1843 /* Assets.xcassets */,
 				FF257DAC24A5C5A9003A1843 /* LaunchScreen.storyboard */,
 				FF257DAF24A5C5A9003A1843 /* Info.plist */,
@@ -73,6 +91,34 @@
 				FF257DAA24A5C5A9003A1843 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF9BD28D24AA144F00E3D6F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BD29024AA152500E3D6F3 /* Fruit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FF9BD28E24AA145900E3D6F3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF257DA524A5C5A8003A1843 /* HomeView.swift */,
+				FF9BD29224AA16D000E3D6F3 /* BottomTabBar.swift */,
+				FFA8AE0D24AB8B770044D688 /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF9BD28F24AA146000E3D6F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FF9BD29424AA199000E3D6F3 /* BottomTabBarViewModel.swift */,
+				FF9BD29624AA233E00E3D6F3 /* HomeViewModel.swift */,
+				FF2C0F9F24ACBF1D00E27F9A /* CartViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +137,10 @@
 			dependencies = (
 			);
 			name = fruit_store;
+			packageProductDependencies = (
+				FF1A951624A646AD00AA4121 /* BottomBar-SwiftUI */,
+				FF9BD28B24AA142300E3D6F3 /* QGrid */,
+			);
 			productName = fruit_store;
 			productReference = FF257D9E24A5C5A8003A1843 /* fruit_store.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +169,10 @@
 				Base,
 			);
 			mainGroup = FF257D9524A5C5A8003A1843;
+			packageReferences = (
+				FF1A951524A646AD00AA4121 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */,
+				FF9BD28A24AA142300E3D6F3 /* XCRemoteSwiftPackageReference "QGrid" */,
+			);
 			productRefGroup = FF257D9F24A5C5A8003A1843 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF9BD29124AA152500E3D6F3 /* Fruit.swift in Sources */,
 				FF257DA224A5C5A8003A1843 /* AppDelegate.swift in Sources */,
+				FF9BD29724AA233E00E3D6F3 /* HomeViewModel.swift in Sources */,
 				FF257DA424A5C5A8003A1843 /* SceneDelegate.swift in Sources */,
-				FF257DA624A5C5A8003A1843 /* ContentView.swift in Sources */,
+				FF9BD29524AA199000E3D6F3 /* BottomTabBarViewModel.swift in Sources */,
+				FF257DA624A5C5A8003A1843 /* HomeView.swift in Sources */,
+				FF2C0FA024ACBF1D00E27F9A /* CartViewModel.swift in Sources */,
+				FFA8AE0E24AB8B770044D688 /* CartView.swift in Sources */,
+				FF9BD29324AA16D000E3D6F3 /* BottomTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +400,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF1A951524A646AD00AA4121 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smartvipere75/bottombar-swiftui";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FF9BD28A24AA142300E3D6F3 /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF1A951624A646AD00AA4121 /* BottomBar-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF1A951524A646AD00AA4121 /* XCRemoteSwiftPackageReference "bottombar-swiftui" */;
+			productName = "BottomBar-SwiftUI";
+		};
+		FF9BD28B24AA142300E3D6F3 /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF9BD28A24AA142300E3D6F3 /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF257D9624A5C5A8003A1843 /* Project object */;
 }
